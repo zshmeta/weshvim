@@ -29,3 +29,8 @@ map("i", "<C-Down>", "<C-\\><C-O>}", { noremap = true, silent = true })
 
 map("n", "<C-t>", ":split | resize 20 | terminal<CR>", { noremap = true, silent = true })
 map("i", "<C-t>", "<C-\\><C-n>:split | resize 20 | terminal<CR>", { noremap = true, silent = true })
+
+-- Navigate with tab
+
+map('n', '<Tab>', '<cmd>lua navTab()<CR>', {noremap = true, silent = true})
+
