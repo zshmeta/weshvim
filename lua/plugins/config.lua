@@ -5,7 +5,14 @@ return {
     -- opts will be merged with the parent spec
     opts = { use_diagnostic_signs = true },
   },
-
+  {
+    "lewis6991/gitsigns.nvim",
+    config = function()
+      require("gitsigns").setup({
+        -- Your minimal gitsigns configuration here
+      })
+    end,
+  },
   {
     "simrat39/symbols-outline.nvim",
     cmd = "SymbolsOutline",

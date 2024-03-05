@@ -23,71 +23,8 @@ return {
     "hrsh7th/vim-vsnip-integ",
     config = function()
       vim.g.vsnip_filetypes = {
-        "javascriptreact",
-        "typescriptreact",
-      }
-    end,
-  },
-  {
-    "hrsh7th/vim-vsnip-integ",
-    config = function()
-      vim.g.vsnip_filetypes = {
-        "javascriptreact",
-        "typescriptreact",
-      }
-    end,
-  },
-  {
-    "hrsh7th/vim-vsnip-integ",
-    config = function()
-      vim.g.vsnip_filetypes = {
-        "javascriptreact",
-        "typescriptreact",
-      }
-    end,
-  },
-  {
-    "hrsh7th/vim-vsnip-integ",
-    config = function()
-      vim.g.vsnip_filetypes = {
-        "javascriptreact",
-        "typescriptreact",
-      }
-    end,
-  },
-  {
-    "hrsh7th/vim-vsnip-integ",
-    config = function()
-      vim.g.vsnip_filetypes = {
-        "javascriptreact",
-        "typescriptreact",
-      }
-    end,
-  },
-  {
-    "hrsh7th/vim-vsnip-integ",
-    config = function()
-      vim.g.vsnip_filetypes = {
-        "javascriptreact",
-        "typescriptreact",
-      }
-    end,
-  },
-  {
-    "hrsh7th/vim-vsnip-integ",
-    config = function()
-      vim.g.vsnip_filetypes = {
-        "javascriptreact",
-        "typescriptreact",
-      }
-    end,
-  },
-  {
-    "hrsh7th/vim-vsnip-integ",
-    config = function()
-      vim.g.vsnip_filetypes = {
-        "javascriptreact",
-        "typescriptreact",
+        javascriptreact = { "javascript" },
+        typescriptreact = { "typescript" },
       }
     end,
   },
