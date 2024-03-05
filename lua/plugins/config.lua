@@ -6,8 +6,6 @@ return {
     opts = { use_diagnostic_signs = true },
   },
 
-  { "folke/zen-mode.nvim" },
-  -- add symbols-outline
   {
     "simrat39/symbols-outline.nvim",
     cmd = "SymbolsOutline",
